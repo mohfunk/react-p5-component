@@ -1,18 +1,24 @@
 {
-  "name": "react-p5-component",
+  "name": "@mohfunk/react-p5-component",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsc --emitDeclarationOnly && rollup -c",
     "publish": "npm publish"
   },
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react-component",
+    "p5",
+    "processing"
+  ],
   "peerDependencies": {
     "react": "^17.0.2"
   },
